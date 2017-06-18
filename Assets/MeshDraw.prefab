@@ -14,7 +14,7 @@ GameObject:
   m_Layer: 0
   m_Name: MeshDraw
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Config:
   - m_StartPos: {x: -6, y: 0, z: -0.01}
     m_Size: {x: 24, y: 6}
-    m_Plane: 1
+    m_Plane: 0
     m_HLineWidthHalf: 0.01
     m_VLineWidthHalf: 0.01
     m_ClockDir: 1
@@ -96,7 +96,7 @@ MonoBehaviour:
     m_ClockDir: 0
   - m_StartPos: {x: -6, y: 0.01, z: -4}
     m_Size: {x: 24, y: 8}
-    m_Plane: 0
+    m_Plane: 1
     m_HLineWidthHalf: 0.02
     m_VLineWidthHalf: 0.01
     m_ClockDir: 1
