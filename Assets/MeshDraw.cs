@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+[RequireComponent(typeof(MeshRenderer), typeof(MeshFilter))]
 public class MeshDraw : MonoBehaviour
 {
     [Header("Common Settings")]
