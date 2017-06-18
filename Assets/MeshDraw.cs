@@ -18,9 +18,9 @@ public class MeshDraw : MonoBehaviour
 
     public enum Plane
     {
-        XZ = 0,
-        XY,
-        YZ,
+        XY = 0,
+        XZ,
+        ZY,
     }
 
     [System.Serializable]
@@ -101,7 +101,7 @@ public class MeshDraw : MonoBehaviour
                         m_DrawVertices[i] = config.m_StartPos + m_DrawVertices[i];
                     }
                     break;
-                case Plane.YZ:
+                case Plane.ZY:
                     {
                         m_DrawVertices[i] = new Vector3(0, m_DrawVertices[i].y, m_DrawVertices[i].x);
                         m_DrawVertices[i] = config.m_StartPos + m_DrawVertices[i];
